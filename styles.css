@@ -1,0 +1,16 @@
+.game_board{
+    background-color: aqua;
+    display: grid;
+    grid-template-columns: repeat(3,0.01fr);
+    /* justify-content: center; */
+    
+
+}
+.cell{
+    height:50px;
+    width:50px;
+    margin:2px;
+    border:2px solid #333;
+
+    background-color:gray;
+}
